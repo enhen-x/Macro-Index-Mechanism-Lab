@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "macro-dynamics-system-id"
+version = "0.1.0"
+description = "Modeling stock market indices as forced damped dynamical systems"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26,<3.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"
