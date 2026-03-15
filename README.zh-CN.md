@@ -1,4 +1,4 @@
-﻿# MacroDynamics-System-ID
+﻿# Macro-Index-Mechanism-Lab
 
 将“宏观变量如何影响大盘指数”作为核心研究目标的可解释量化研究工作区。
 
@@ -6,7 +6,7 @@
 
 ## 1. 项目定位
 
-`MacroDynamics-System-ID` 关注的是**作用机制解释**，而不是单一建模范式。
+`Macro-Index-Mechanism-Lab` 关注的是**作用机制解释**，而不是单一建模范式。
 
 项目目标：
 - 识别宏观变量对大盘指数（如 S&P500）的传导路径；
@@ -63,3 +63,4 @@
 ## 7. 许可证
 
 MIT License.
+

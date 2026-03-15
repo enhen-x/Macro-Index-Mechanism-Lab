@@ -1,4 +1,4 @@
-﻿# MacroDynamics-System-ID
+﻿# Macro-Index-Mechanism-Lab
 
 An interpretable macro-finance research workspace focused on explaining how macro variables affect broad equity indices.
 
@@ -6,7 +6,7 @@ An interpretable macro-finance research workspace focused on explaining how macr
 
 ## 1. Project Scope
 
-`MacroDynamics-System-ID` is centered on **mechanism discovery**, not on a single modeling paradigm.
+`Macro-Index-Mechanism-Lab` is centered on **mechanism discovery**, not on a single modeling paradigm.
 
 Core objectives:
 - identify transmission channels from macro variables to broad indices (e.g., S&P500);
@@ -63,3 +63,4 @@ Recommended PR checklist:
 ## 7. License
 
 MIT License.
+

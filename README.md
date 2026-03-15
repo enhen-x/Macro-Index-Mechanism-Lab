@@ -1,4 +1,4 @@
-﻿# MacroDynamics-System-ID
+﻿# Macro-Index-Mechanism-Lab
 
 Welcome to the project documentation hub.
 
@@ -9,7 +9,7 @@ Welcome to the project documentation hub.
 
 ## Quick Summary
 
-`MacroDynamics-System-ID` is an interpretable macro-finance research workspace focused on identifying how macro variables affect broad equity indices.
+`Macro-Index-Mechanism-Lab` is an interpretable macro-finance research workspace focused on identifying how macro variables affect broad equity indices.
 
 The project is **not limited to a single modeling family**. It supports multiple explainable approaches, including:
 - dynamical-system formulations (e.g., vibration-equation style models),
@@ -28,4 +28,5 @@ Current priority: build robust, testable evidence for macro-to-index transmissio
 ## License
 
 MIT License.
+
 

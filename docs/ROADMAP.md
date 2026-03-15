@@ -1,4 +1,4 @@
-# MacroDynamics-System-ID Roadmap
+﻿# Macro-Index-Mechanism-Lab Roadmap
 
 ## 目标
 
@@ -78,4 +78,5 @@
 - M2（2026-05-20）：基线辨识结果可复现
 - M3（2026-07-01）：自适应模型进入评估
 - M4（2026-09-01）：完成物理约束融合对照报告
+
 
