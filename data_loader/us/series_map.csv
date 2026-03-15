@@ -1,0 +1,11 @@
+field_name,source,series_id,frequency,role,notes,fallback_source,fallback_url
+sp500,FRED,SP500,daily,market_state_base,S&P 500 index level; fallback to Stooq for longer history,STOOQ,https://stooq.com/q/d/l/?s=%5Espx&i=d
+fed_funds,FRED,FEDFUNDS,monthly,country_control,Effective Federal Funds Rate
+ust10y,FRED,DGS10,daily,global_or_country_control,U.S. 10Y Treasury yield
+walcl,FRED,WALCL,weekly,country_control,Fed total assets proxy; prepend BOGMBASE for pre-2003 history,FRED_PREPEND,BOGMBASE
+vix,FRED,VIXCLS,daily,global_shock,CBOE Volatility Index
+dxy_broad,FRED,DTWEXM,daily,global_shock,Major currencies USD index (DTWEXM) discontinued at 2019-12-31; append DTWEXAFEGS after splice,FRED_APPEND,DTWEXAFEGS
+bus_loans,FRED,BUSLOANS,weekly,country_control,Commercial bank loans proxy
+cpi,FRED,CPIAUCSL,monthly,country_control_or_state,CPI All Urban Consumers
+indpro,FRED,INDPRO,monthly,country_control_or_state,Industrial Production Index
+unrate,FRED,UNRATE,monthly,country_control_or_state,U.S. Unemployment Rate

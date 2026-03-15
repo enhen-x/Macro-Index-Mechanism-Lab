@@ -5,3 +5,6 @@
 .venv/
 venv/
 .env
+pytest-cache-files-*/
+data_loader/us/fred_api_key.txt
+data

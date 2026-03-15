@@ -9,7 +9,15 @@ Welcome to the project documentation hub.
 
 ## Quick Summary
 
-`MacroDynamics-System-ID` models stock market indices as a forced damped dynamical system, using system identification and state-space methods to estimate interpretable market dynamics parameters.
+`MacroDynamics-System-ID` is an interpretable macro-finance research workspace focused on identifying how macro variables affect broad equity indices.
+
+The project is **not limited to a single modeling family**. It supports multiple explainable approaches, including:
+- dynamical-system formulations (e.g., vibration-equation style models),
+- state-dependent local projections,
+- discount-rate vs cash-flow mechanism decomposition,
+- and other structured econometric models for mechanism analysis.
+
+Current priority: build robust, testable evidence for macro-to-index transmission mechanisms under different market regimes.
 
 ## Suggested Reading Order
 

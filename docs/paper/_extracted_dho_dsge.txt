@@ -1,0 +1,265 @@
+
+
+===== PAGE 1 =====
+arXiv:2502.06528v2  [econ.GN]  7 Apr 2025
+Incorporating Damped Harmonic Oscillator in DSGE Models
+Wei Chun Hsu
+February 11, 2025
+1 Introduction
+Economic ﬂuctuations, commonly referred to as business cycles, h ave long been a central concern for
+macroeconomists. These ﬂuctuations arise due to various interna l and external factors, including tech-
+nological changes, monetary policy shifts, and international econ omic events. As economies face these
+shocks, understanding how they adjust and recover becomes cr itical for policymakers, businesses, and
+households.
+Traditionally, Dynamic Stochastic General Equilibrium (DSGE) models have provided a robust frame-
+work for analyzing these ﬂuctuations. DSGE models derive macroec onomic outcomes from the optimiz-
+ing behavior of individual agents, such as consumers and ﬁrms, who respond to shocks under rational
+expectations. However, DSGE models are often criticized for their inability to fully capture delayed
+adjustments seen in real-world economies, where frictions such as price and wage stickiness slow down
+the return to equilibrium.
+To address these shortcomings, we turn to physics, speciﬁcally th e concept of the damped harmonic
+oscillator. This model describes systems where oscillations gradually decay due to friction or resistance,
+eventually leading to a stable equilibrium. The damped harmonic oscillato r’s ability to model systems
+that experience delayed or slow responses makes it a valuable tool f or improving DSGE models. By incor-
+porating a damping coeﬃcient, we can model economies that exhibit v arying recovery speeds, depending
+on the extent of market frictions and policy delays.
+This paper aims to integrate the damped harmonic oscillator into DSGE models to create a more real-
+istic framework for analyzing economic ﬂuctuations. We explore how diﬀerent levels of damping—under-
+damped, critically damped, and over-damped—aﬀect the speed and stability of economic recovery.
+Through numerical simulations and historical case studies, we demo nstrate the model’s applicability
+in explaining real-world economic events, such as the Great Depress ion and the 2008 Global Financial
+Crisis.
+2 Literature Review
+2.1 Evolution and Application of DSGE Models
+The development of DSGE models has its roots in Real Business Cycle ( RBC) theory, introduced by Finn
+E. Kydland and Edward C. Prescott (1982) . RBC models focus on technological shocks as the
+primary drivers of economic ﬂuctuations, treating recessions and booms as natural responses to changes
+in productivity. While RBC models provide a solid microeconomic foundat ion, they fail to account
+for market imperfections, such as price stickiness or wage rigidity, which are critical for understanding
+short-term economic dynamics.
+The New Keynesian DSGE models addressed many of these limitations b y incorporating nominal
+rigidities, such as sticky prices and wages. These models allow for the analysis of monetary policy’s
+short-term impact on output and employment, particularly in the pr esence of demand shocks. For
+instance, Gauti B. Eggertsson and Michael Woodford (2003) highlight the role of central banks
+in stabilizing inﬂation and output using interest rate rules within DSGE m odels.
+However, even New Keynesian DSGE models tend to assume a relative ly quick adjustment to equi-
+librium following shocks. This assumption underestimates the persist ence of economic slumps, especially
+when signiﬁcant market frictions or structural issues are presen t. These models do not adequately capture
+the delayed responses seen in real-world recoveries, where econo mies can experience prolonged periods
+of stagnation or instability before returning to normal levels.
+1
+
+===== PAGE 2 =====
+2.2 Damped Harmonic Oscillator: Basic Theory and Mathemati cal Struc-
+ture
+The damped harmonic oscillator is a classical model in physics that des cribes systems where an external
+force causes oscillations, which are gradually reduced by internal r esistance or damping. The system is
+characterized by the following diﬀerential equation:
+m¨x + c ˙x + kx = F (t)
+Where:
+• m is the mass of the object,
+• c is the damping coeﬃcient (friction),
+• k is the spring constant (restoring force),
+• F (t) is the external force acting on the system.
+The behavior of the system depends on the magnitude of the dampin g coeﬃcient c, which determines
+how quickly the system’s oscillations decay:
+• Under-damped (c2 < 4mk): The system oscillates with gradually decreasing amplitude.
+• Critically-damped (c2 = 4 mk): The system returns to equilibrium without oscillating and in
+the shortest possible time.
+• Over-damped (c2 > 4mk): The system returns to equilibrium slowly without oscillations.
+This dynamic behavior is similar to how economies adjust after a shock . In an economic context,
+the damping coeﬃcient γ can represent various frictions, such as price stickiness, wage rig idity, or policy
+delays, that slow down recovery. Introducing this concept into DS GE models allows for a more accurate
+representation of how economies recover from shocks.
+2.3 Cross-disciplinary Research between Economics and Phy sics
+The ﬁeld of econophysics has seen an increasing amount of researc h in recent decades. Econophysics
+applies models and methods from statistical physics to economic phe nomena, particularly in ﬁnancial
+markets. For example, some studies have used statistical physics to analyze market volatility and asset
+pricing.
+However, while econophysics has primarily focused on ﬁnancial mark ets, there has been less research
+on applying physical models like the damped harmonic oscillator to macr oeconomic ﬂuctuations. This
+paper builds on previous work by integrating the mathematical fram ework of the damped harmonic
+oscillator into DSGE models, thereby creating a novel approach to u nderstanding economic recovery
+dynamics.
+3 Theoretical Foundation
+3.1 Basic Structure of DSGE Models
+DSGE models are grounded in the optimizing behavior of individual econ omic agents. Consumers max-
+imize their utility over time, typically represented by an intertempora l utility function:
+max E0
+∞∑
+t=0
+βtU (Ct, Lt)
+Where:
+• Ct is consumption at time t,
+• Lt is leisure,
+• β is the discount factor, representing the trade-oﬀ between pres ent and future consumption.
+2
+
+===== PAGE 3 =====
+Households make decisions subject to a budget constraint :
+Ct + Bt+1 = (1 + rt)Bt + WtNt
+Where:
+• Bt is bond holdings,
+• rt is the interest rate,
+• Wt is the wage rate,
+• Nt is labor supply.
+On the production side, ﬁrms maximize proﬁts by choosing labor Nt and capital Kt inputs to produce
+output:
+max Πt = PtYt − WtNt − RtKt
+Where Yt is the ﬁrm’s output, Pt is the price level, Wt is wages, and Rt is the rental rate of capital.
+Firms face a production function:
+Yt = AtF (Kt, Nt)
+Where At represents total factor productivity (TFP).
+Market-clearing conditions ensure that the sum of supply and dema nd in both goods and labor mar-
+kets equals zero. These individual optimization problems and market -clearing conditions are combined
+to derive a general equilibrium.
+3.2 Dynamics of the Damped Harmonic Oscillator
+The damped harmonic oscillator is a useful framework for describing the delayed response of an economic
+system to external shocks. In this model, the output gap Yt represents the deviation of actual output
+from potential output. The dynamic equation of the system is given by:
+¨Yt + γ ˙Yt + αYt = εt
+Where:
+• γ is the damping coeﬃcient, representing market frictions or delays in policy implementation,
+• α is the system’s natural adjustment frequency, which dictates ho w fast the economy would return
+to equilibrium in the absence of frictions,
+• εt is a stochastic shock representing external disturbances, such as ﬁnancial crises or policy shocks.
+The behavior of the system depends on the value of the damping coe ﬃcient γ:
+• Under-damped: If γ is small, the system will exhibit oscillatory behavior, where the econom y
+experiences ﬂuctuations around equilibrium before eventually stab ilizing.
+• Critically-damped: If γ reaches a critical value, the system will return to equilibrium in the
+shortest possible time without oscillating.
+• Over-damped: If γ is large, the economy will return to equilibrium slowly, without oscillation s,
+reﬂecting a more gradual recovery process.
+3
+
+===== PAGE 4 =====
+4 Mathematical Model Construction
+4.1 Mathematical Representation of DSGE Models
+In the standard DSGE framework, the economy’s dynamic behavior is driven by the intertemporal choices
+of households and ﬁrms. The Euler equation represents the optima l intertemporal choice of consumption:
+U ′(Ct) = β(1 + rt+1)EtU ′(Ct+1)
+This equation shows that the marginal utility of consumption today m ust equal the expected dis-
+counted marginal utility of future consumption, adjusted for the interest rate. Firms’ investment decisions
+are driven by a similar intertemporal optimization problem, and the To bin’s Q theory of investment links
+current capital accumulation to future proﬁts.
+5 Numerical Simulations and Estimating Damping Coeﬃcient
+5.1 Numerical Methods for Solving the Model
+In this section, we simulate the dynamic behavior of the output gap Yt under various damping scenarios.
+The model used is based on the following second-order diﬀerential e quation:
+¨Yt + γ ˙Yt + αYt = εt
+Here, γ is the damping coeﬃcient representing market friction or policy delay s, α is the system’s
+natural frequency, and εt represents stochastic shocks. To solve this equation numerically, we employ
+the **Euler method**. This method approximates the solution of diﬀ erential equations by iterating over
+small time steps and updating the values of Yt and ˙Yt.
+Below is an illustrative R code snippet:
+# R code for simulating output gap dynamics under different d amping conditions
+library(ggplot2)
+alpha <- 1.0
+time <- seq(0, 20, by=0.1)
+dt <- time[2] - time[1]
+epsilon <- 0
+solve_ode <- function(gamma, Y0, Ydot0, alpha, time) {
+Y <- numeric(length(time))
+Ydot <- numeric(length(time))
+Y[1] <- Y0
+Ydot[1] <- Ydot0
+for (i in 2:length(time)) {
+Yddot <- -gamma * Ydot[i-1] - alpha * Y[i-1] + epsilon
+Ydot[i] <- Ydot[i-1] + Yddot * dt
+Y[i] <- Y[i-1] + Ydot[i-1] * dt
+}
+return(Y)
+}
+# Initial conditions
+Y0 <- 1
+Ydot0 <- 0
+# Different damping coefficients
+gamma_under <- 0.5
+gamma_critical <- 2.0
+gamma_over <- 4.0
+4
+
+===== PAGE 5 =====
+Y_under <- solve_ode(gamma_under, Y0, Ydot0, alpha, time)
+Y_critical <- solve_ode(gamma_critical, Y0, Ydot0, alpha , time)
+Y_over <- solve_ode(gamma_over, Y0, Ydot0, alpha, time)
+data <- data.frame(
+Time = rep(time, 3),
+OutputGap = c(Y_under, Y_critical, Y_over),
+Damping = factor(rep(c("Under-damped", "Critically-dam ped", "Over-damped"),
+each=length(time)))
+)
+ggplot(data, aes(x=Time, y=OutputGap, color=Damping)) +
+geom_line(size=1) +
+labs(title="Output Gap Dynamics under Different Damping C onditions",
+x="Time", y="Output Gap (Y)")
+5.2 Results and Interpretation
+Under-damped (γ2 < 4α)
+The system exhibits oscillations, indicating that the economy may ove rshoot before stabilizing. This
+behavior is typically seen when policy interventions are aggressive, c ausing temporary volatility in
+the output gap.
+Critically-damped (γ2 = 4α)
+The system returns to equilibrium as quickly as possible without oscillat ing. This scenario can be
+viewed as “ideal” because it implies that monetary or ﬁscal policies are calibrated in a way that
+stabilizes the economy eﬃciently.
+Over-damped (γ2 > 4α)
+The system slowly converges to equilibrium without overshooting, re ﬂecting either cautious policy
+interventions or signiﬁcant market frictions. These frictions could prolong the recovery process, as
+the output gap closes only gradually.
+5.3 Estimating the Damping Coeﬃcient
+To estimate the damping coeﬃcient γ, one can apply statistical techniques such as Maximum Likelihood
+Estimation (MLE) or time-series methods. Details of the estimation p rocedure can be tailored to speciﬁc
+datasets and theoretical speciﬁcations, ensuring consistency w ith the model’s assumptions and chosen
+references.
+6 Application of Findings: Integrating with Financial Data and
+Theoretical Models
+To apply the theoretical framework of damping in DSGE models with th e empirical insights from Ben
+S. Bernanke and Alan S. Blinder (1988) and Kiminori Matsuyama, Nobuhiro Kiyotaki, and
+Akihiko Matsui (1993) on credit systems, money, and international currency, we need t o understand
+how liquidity constraints and currency competition shape output ﬂu ctuations and the response to shocks.
+In this context, the damping coeﬃcient γ can be interpreted as capturing the degree of friction—such as
+credit constraints or nominal rigidities—that impedes a swift return to equilibrium.
+For instance, Nobuhiro Kiyotaki and John Moore (2019) show that unexpected changes in
+liquidity (e.g., policy-driven money injections) can have non-neutral eﬀects on output and interest rates,
+depending on how these injections alter the liquidity conditions in the m arket. By incorporating their
+insights into our damped-oscillator-style DSGE framework, we can m odel how varying levels of liquidity
+frictions directly aﬀect the damping coeﬃcient γ, thereby inﬂuencing the speed and stability of recovery
+after a shock.
+Furthermore, Paul R. Krugman and Maurice Obstfeld (2003) provide a broader international
+perspective on how open-economy factors—such as exchange ra tes and cross-border capital ﬂows—can
+aﬀect monetary transmission. This aspect can be integrated by allo wing the damping coeﬃcient to vary
+5
+
+===== PAGE 6 =====
+with exchange rate regimes or external balance constraints, ext ending our model to capture international
+spillovers of domestic policies.
+7 Conclusion
+Incorporating damping eﬀects into DSGE models allows for a more rea listic representation of economic
+dynamics in the face of shocks. By simulating diﬀerent damping condit ions, we gain insights into how
+policies and market frictions inﬂuence the speed and stability of econ omic recoveries. Estimating the
+damping coeﬃcient γ using empirical methods further enriches the model by enabling valid ation against
+real-world data.
+Building on Ben S. Bernanke and Alan S. Blinder (1988) , Kiminori Matsuyama, Nobuhiro
+Kiyotaki, and Akihiko Matsui (1993) , and Nobuhiro Kiyotaki and John Moore (2019) , we
+see how credit market structures, monetary frictions, and liquidit y constraints can all be viewed as
+contributors to the “damping” mechanism in an economy. The integr ation of these ideas also highlights
+the importance of international factors ( Paul R. Krugman and Maurice Obstfeld, 2003 ) and
+zero-bound monetary policy considerations ( Gauti B. Eggertsson and Michael Woodford, 2003 ).
+Future research can extend this framework by incorporating sec toral heterogeneity, reﬁning how
+shocks propagate across diﬀerent industries, and allowing the dam ping coeﬃcient to evolve endogenously
+with policy regimes. Such reﬁnements would further improve the cap acity of DSGE models to explain
+and predict real-world economic ﬂuctuations.
+8 References
+Finn E. Kydland and Edward C. Prescott. “Time to Build and Aggregat e Fluctuations.”
+Econometrica, vol. 50, no. 6, 1982, pp. 1345–1370.
+Ben S. Bernanke and Alan S. Blinder. “Credit, Money, and Aggregat e Demand.” American Economic
+Review, vol. 78, no. 2, 1988, pp. 435–439.
+Kiminori Matsuyama, Nobuhiro Kiyotaki, and Akihiko Matsui. “Toward a Theory of International
+Currency.” Review of Economic Studies , vol. 60, no. 2, 1993, pp. 283–307.
+Paul R. Krugman and Maurice Obstfeld. International Economics: Theory and Policy .
+Addison-Wesley, 2003.
+Nobuhiro Kiyotaki and John Moore. “Liquidity, Business Cycles, and Monetary Policy.” Journal of
+Political Economy, vol. 127, no. 6, 2019, pp. 2926–2966.
+Gauti B. Eggertsson and Michael Woodford. “The Zero Bound on I nterest Rates and Optimal
+Monetary Policy.” Brookings Papers on Economic Activity , vol. 2003, no. 1, 2003, pp. 139–211.
+6
